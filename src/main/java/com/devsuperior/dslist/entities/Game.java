@@ -12,6 +12,7 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "tb_game")
 public class Game {
+	
 	@Id  // cria id chave primaria banco
 	@GeneratedValue(strategy = GenerationType.IDENTITY) // gera id incrementado
 	private Long id;
