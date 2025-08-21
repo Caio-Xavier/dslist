@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.devsuperior.dslist.dto.GameListDTO;
 import com.devsuperior.dslist.services.GameListService;
 
+
+
 @RestController
 @RequestMapping(value = "/lists")
 public class GameListController {
